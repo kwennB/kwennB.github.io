@@ -60,15 +60,16 @@ body {
 }
 
 .hero-text {
-    color: gold;
+    color: black;
     text-align: left;
     position: absolute;
     font-size: 30px;
     font-weight: 200;
-    top: 35%;
+    top: 50%;
     left: 55%;
     transform: translate(-50%, -50%);
     float: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #about-me {
     margin-top: 10px;
