@@ -218,10 +218,37 @@ body {
       margin-top: 0;
     }
   }
-  
+ 
 footer {
     padding: 20px;
     background: #22313F;
     color: white;
     line-height: 40px;
 }
+@media (max-width: 600px) {
+    body, html{
+        width: 100%;
+    }
+
+    .hero-text {
+      position: relative;
+      transform: none;
+      left:0;
+    }
+    #hero {
+      padding:50px 30px;
+    }
+    .column1 {
+      width: 100%;
+      padding: 20px 30px;
+    }
+    .column2 {
+      width: 100%;
+      padding: 20px 30px;
+      text-align: center;
+    }
+    .column2 img {
+      width: 90%;
+    }
+  }
+  
