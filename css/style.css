@@ -225,6 +225,11 @@ footer {
     color: white;
     line-height: 40px;
 }
+.mobile-img {
+    display: none;
+}
+
+
 @media (max-width: 600px) {
     body, html{
         width: 100%;
@@ -247,8 +252,24 @@ footer {
       padding: 20px 30px;
       text-align: center;
     }
+
+
     .column2 img {
-      width: 90%;
-    }
+        display: none;
+      }
+  
+      .mobile-img-div {
+          width: 100%;
+          padding: 10px 20px;
+      }
+  
+      .mobile-img {
+          display: block;
+          width: 100%;
+      }
+  
+      #about-me {
+          padding-bottom: 10px;
+      }
   }
   
