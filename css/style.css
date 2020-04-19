@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-    background-color: rgb(220,20,60);
+    background-color: #00BFFF;
     padding: 20px 15px;
     height: 5rem;
 }
@@ -54,22 +54,24 @@ body {
 }
 #hero h5 {
     color: #0094fb;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 200;
     font-weight: bolder;
+    font-style: italic;
 }
 
 .hero-text {
     color: black;
     text-align: left;
     position: absolute;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 200;
     top: 50%;
     left: 55%;
     transform: translate(-50%, -50%);
     float: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
 }
 #about-me {
     margin-top: 10px;
@@ -94,6 +96,7 @@ body {
 }
 .column1 p{
     font-size: 20px;
+    font-style: italic;
     /* line-height: 1.2em; */
     text-align: justify;
     margin-top: 2px;
